@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script src="./assets/js/script.js" defer></script>
     <title>Rock-Paper-Scissor</title>
 </head>
+
 <body>
 
     <h1>Rock-Paper-Scissor</h1>
@@ -17,37 +19,43 @@
         <p>Lorem ipsum dolor sit amet.</p>
         <p>Lorem ipsum dolor sit amet.</p>
 
-        <button>Start game!</button>
+        <button id="start_btn">Start game!</button>
     </section>
 
 
-    <section class="computer_result">
-        <p>Computer</p>
-        <span class="result">Result: </span>
-    </section>
-
-    <section class="player_result">
-        <p>Computer</p>
-        <span class="result">Result: </span>
-    </section>
 
 
     <section class="game_window">
+        <article class="computer_result">
+            <p>Computer</p>
+            <span class="result">Result: </span>
+        </article>
 
-        <div class="computer_img">
-            <img src="" alt="">
-        </div>
-        <h2>Computer</h2>
+        <article class="player_result">
+            <p>Player</p>
+            <span class="result">Result: </span>
+        </article>
 
 
-        <a href=""><img src="" alt="">PIC</a>
-        <a href=""><img src="" alt="">PIC</a>
-        <a href=""><img src="" alt="">PIC</a>
-        <h2>Player</h2>
+        <article class="computer">
+            <div class="computer_img">
+                <img src="" alt="">
+            </div>
+            <h2>Computer</h2>
+        </article>
+
+        <article class="player">
+            <a href="#"><img src="./assets/svg/paper.svg" alt="paper"></a>
+            <a href="#"><img src="./assets/svg/rock.svg" alt="rock"></a>
+            <a href="#"><img src="./assets/svg/scissor.svg" alt="scissor"></a>
+            <h2>Player</h2>
+        </article>
 
 
 
     </section>
 
 </body>
+
+
 </html>

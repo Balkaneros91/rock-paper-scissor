@@ -1,5 +1,55 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+.start_window,
+.game_window,
+.computer_result,
+.player_result,
+.computer,
+.player {
+  border: 2px solid black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start_window {
+  /* display: none; */
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.game_window {
+  display: none;
+  /* display: grid; */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  /* grid-template-areas:
+    "computer computer computer"
+    "compresult playresult"
+    "player player player"; */
+}
+
+/* .computer_result {
+  grid-area: compresult;
+}
+
+.player_result {
+  grid-area: playresult;
+}
+
+.computer {
+  grid-area: computer;
+}
+
+.player {
+  grid-area: player;
+} */
